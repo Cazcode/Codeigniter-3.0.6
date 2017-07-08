@@ -1,0 +1,10 @@
+/*Style for kanban board*/
+.ulKanban {list-style-type: none;border-style: solid;border-color: white;}
+ul{list-style-type: none}
+.item-danger {border-left: 6px solid red;/*background-color: rgba(243, 194, 194,1);*/background-color: lightgrey;}
+.item-warning {border-left: 6px solid orange;/*background-color: rgba(236, 205, 173, 1);*/background-color: lightgrey;}
+.item-success {border-left: 6px solid green;/*background-color: rgba(219, 232, 226,1);*/background-color: lightgrey;}
+.ui-state-highlight { height: 1.5em; line-height: 1.2em; background-color:rgb(255, 255, 213);}
+.kRoad{padding: 0;}
+.kRoad > .panel > .panel-heading {font-weight: bold;}
+.panelInnerEle {margin: 0px;}
